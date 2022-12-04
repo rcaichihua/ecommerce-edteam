@@ -1,6 +1,6 @@
-import { API_URL } from '../constants/env';
+import { API_URL } from '../../constants/env';
 
-function App() {
+function Home() {
   return (
     <div>
       <h1>Hola mundo! {API_URL}</h1>
@@ -9,4 +9,4 @@ function App() {
   )
 }
 
-export default App
+export default Home
