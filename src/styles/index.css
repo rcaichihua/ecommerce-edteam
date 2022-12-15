@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-gradient {
+    background: linear-gradient(to right, #1460bc, #2498ce, #36a3dd, #4482c4);
+  }
+
+  .menu-item {
+    @apply bg-blue-500 hover: bg-blue-700 text-white font-bold py-2 px-4 rounded;
+  }
+}
