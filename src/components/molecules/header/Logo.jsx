@@ -5,7 +5,7 @@ const Logo = () => {
     <div className='logo flex'>
       <Link to="/">
         <div>
-          <img src="https://img.freepik.com/vector-gratis/logo-abstracto-empresa-tecnologica-degradado_52683-9702.jpg?size=338&ext=jpg&ga=GA1.2.92368367.1670741880"
+          <img src="https://seng.hkust.edu.hk/sites/default/files/images/SENG_logo4_0.svg"
             alt="Logo CaiTech" />
         </div>
       </Link>
