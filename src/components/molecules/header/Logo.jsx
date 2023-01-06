@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Logo = () => {
   return (
-    <div className='logo flex'>
+    <div className='flex'>
       <Link to="/">
         <div>
           <img src="https://seng.hkust.edu.hk/sites/default/files/images/SENG_logo4_0.svg"

@@ -14,8 +14,16 @@ const MainMenu = () => {
             Productos
           </Link>
         </li>
-        <li>Ofertas</li>
-        <li>Contacto</li>
+        <li className="flex item-center">
+          <Link className="menu-item" to="/oferts">
+            Ofertas
+          </Link>
+        </li>
+        <li className="flex item-center">
+          <Link className="menu-item" to="/contact">
+            Contacto
+          </Link>
+        </li>
       </ul>
     </nav>
   )
